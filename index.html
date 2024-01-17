@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="style/text" href="./style.css">
+  <link rel="stylesheet" href="./style.css">
   <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
   <title>Frontend Mentor | Advice generator app</title>
 
@@ -13,22 +13,25 @@
 <main>
 <div class="advice-container">
   <div class="title">
-<h2 class="advice-h2" id="advice-title">advice</h2>
+<h2 class="advice-h2" id="advice-title"></h2>
   </div>
 <div class="advice-content" id="advice-content"></div>
-<img class="divider" src="./images/pattern-divider-desktop.svg">
+<div class="divider">
+ <img src="./images/pattern-divider-desktop.svg"/>
+</div>
 <div class="dice" id="advice-dice">
 <img src="./images/icon-dice.svg">
+</div>
+
 </div>
 <div class="attribution">
   Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
   Coded by <a href="https://github.com/njabulo-t" target="_blank">Njabulo</a>.
 </div>
-</div>
   
-  
+ 
+  </main>
   <script src="./script.js">
   </script>
-  </main>
 </body>
 </html>

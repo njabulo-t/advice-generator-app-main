@@ -21,7 +21,7 @@ function displayAdviceId(id) {
 function displayAdvice(advice) {
    
     let adviceContent = document.querySelector("#advice-content");
-    adviceContent.textContent = advice;
+    adviceContent.textContent = `"${advice}"`;
 }
 
 function getAdvice() {

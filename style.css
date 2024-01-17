@@ -1,6 +1,74 @@
+@media screen and (min-width: 1440px) {
+    body{
+        background-color: hsl(218, 23%, 16%) ;
+    }
+}
+
+body{
+    background-color:hsl(218, 23%, 16%) ;
+}
+
+.advice-container{
+    display: block;
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    background-color:#313A49 ;
+    border-radius: 10px;
+}
+
+.advice-h2{
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    text-transform:uppercase;
+    color:hsl(150, 100%, 66%);
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.advice-content{
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    color: hsl(193, 38%, 86%);
+    font-size: 32px;  
+}
+
+
+.divider img{
+    display: block;
+    margin: 0 auto;
+    padding-top: 80px;
+   
+}
+
+#advice-dice {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+ 
+}
+
+#advice-dice::before {
+    content: '';
+    position: absolute;
+    top: 40%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    width: 60px; 
+    height: 60px; 
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    z-index: -1; 
+}
+
 .attribution { 
     font-size: 11px; 
     text-align: center; 
+    color: hsl(193, 38%, 86%);
 }
 
 .attribution a { 
