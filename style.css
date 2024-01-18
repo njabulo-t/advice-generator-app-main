@@ -1,6 +1,7 @@
 @media screen and (min-width: 1440px) {
     body{
-        background-color: hsl(218, 23%, 16%) ;
+        background-color: hsl(218, 23%, 16%);
+        font-family: 'Manrope', sans-serif;
     }
 }
 
@@ -9,12 +10,13 @@ body{
 }
 
 .advice-container{
+    position: relative;
     display: block;
     max-width: 800px;
     height: 400px;
     margin: 0 auto;
-    margin-top: 300px;
-    margin-bottom: 300px;
+    margin-top: 180px;
+    margin-bottom: 180px;
     background-color:#313A49 ;
     border-radius: 10px;
 }
@@ -23,24 +25,28 @@ body{
     display: block;
     text-align: center;
     padding-top: 40px;
-    text-transform:uppercase;
+    text-transform: uppercase;
     color:hsl(150, 100%, 66%);
     font-size: 16px;
     letter-spacing: 2px;
 }
 .advice-content{
     display: block;
-    width: 400px;
+    text-align: center;
+    width: 450px;
+    height: 100px;
     margin: 0 auto;
+    margin-top: 90px;
     color: hsl(193, 38%, 86%);
-    font-size: 32px;  
+    font-size: 28px; 
+    font-weight: 800; 
 }
 
 
 .divider img{
     display: block;
     margin: 0 auto;
-    padding-top: 80px;
+    padding-top: 50px;
    
 }
 
@@ -55,8 +61,8 @@ body{
 #advice-dice::before {
     content: '';
     position: absolute;
-    top: 40%;
-    left: 49%;
+    bottom: -43px;
+    left: 50%;
     transform: translate(-50%, -50%);
     width: 60px; 
     height: 60px; 
@@ -64,6 +70,12 @@ body{
     border-radius: 50%;
     z-index: -1; 
 }
+
+#advice-dice:hover::before {
+    box-shadow: 0 0 20px rgba(150, 240, 150, 0.8); 
+}
+
+
 
 .attribution { 
     font-size: 11px; 
