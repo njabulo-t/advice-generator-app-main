@@ -1,7 +1,10 @@
 @media screen and (max-width: 430px) {
+   
     .advice-container-fluid {
 
-      margin: 0 auto;
+        width: 375px;
+        height: 400px;
+        margin: 0 auto;
     }
 
     .advice-content-fluid{
@@ -15,9 +18,11 @@
         width: 300px;
         font-size:1em; 
     }
-    .divider-fluid{
-       overflow: hidden;
-       justify-items: center;
+    .divider-fluid img{
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+       transform: scale(0.6);
     }
     main {
         display: flex;
