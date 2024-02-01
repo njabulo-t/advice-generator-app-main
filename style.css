@@ -1,17 +1,39 @@
+@media screen and (max-width: 430px) {
+    .advice-container-fluid {
 
+      margin: 0 auto;
+    }
+
+    .advice-content-fluid{
+        text-align: center;
+        width: 100px;
+        height: 350px;
+        margin: 0 auto;
+     
+    }
+    #advice-content{
+        width: 300px;
+        font-size:1em; 
+    }
+    .divider-fluid{
+       overflow: hidden;
+       justify-items: center;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+      
+  }
 
 body{
     margin: 0;
     font-family: 'Manrope', sans-serif;
     background-color:hsl(218, 23%, 16%) ;
 }
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-  
+
 
 .advice-container-fluid{
     position: relative;
@@ -82,6 +104,8 @@ main {
 
 
 .attribution { 
+    padding-top: 140px;
+    padding-bottom: 10px;
     font-size: 11px; 
     text-align: center; 
     color: hsl(193, 38%, 86%);
